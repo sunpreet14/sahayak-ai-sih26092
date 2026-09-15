@@ -1,0 +1,278 @@
+[
+  {
+    "id": "scheme-001",
+    "name": "Term Loan Scheme",
+    "organization": "NSFDC",
+    "category": "Business & Entrepreneurship",
+    "description": "Financial assistance for setting up small businesses, service enterprises, and self-employment ventures for individuals belonging to Scheduled Caste communities.",
+    "overview": "The Term Loan Scheme by NSFDC provides concessional finance to members of Scheduled Castes living below the double poverty line for undertaking income-generating activities. The scheme aims to uplift the target group by providing them with financial assistance to start or expand their own businesses.",
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 55,
+      "maxFamilyIncome": 300000,
+      "categories": ["SC"],
+      "states": "all",
+      "purposes": ["business", "self-employment", "manufacturing", "service"],
+      "maxProjectCost": 1500000,
+      "educationRequired": false
+    },
+    "financials": {
+      "maxLoanAmount": 1500000,
+      "interestRate": 6.0,
+      "maxTenureMonths": 120,
+      "moratoriumMonths": 6,
+      "financingPercentage": 90,
+      "marginMoney": 10,
+      "subsidyAvailable": true,
+      "subsidyDetails": "Up to 50% subsidy on interest for women and persons with disabilities"
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Caste Certificate (SC)",
+      "Income Certificate",
+      "Address Proof",
+      "Passport Size Photographs (2)",
+      "Bank Account Details",
+      "Project Report / Business Plan",
+      "Quotation of Machinery / Equipment (if applicable)"
+    ],
+    "benefits": [
+      "Low interest rate of 6% per annum",
+      "Up to 90% project financing",
+      "Moratorium period of 6 months",
+      "Flexible repayment tenure up to 10 years",
+      "Additional interest subsidy for women beneficiaries",
+      "No collateral required up to ₹5 Lakh"
+    ],
+    "applicationProcess": [
+      "Visit nearest Channel Partner (SCA/MFI/NGO)",
+      "Fill the application form with required documents",
+      "Submit project report for business viability assessment",
+      "Application forwarded to NSFDC by Channel Partner",
+      "Loan sanctioned after verification and approval",
+      "Amount disbursed through Channel Partner"
+    ],
+    "tags": ["SC", "Business", "Self-Employment", "Low Interest"]
+  },
+  {
+    "id": "scheme-002",
+    "name": "Micro Credit Finance",
+    "organization": "NSFDC",
+    "category": "Micro Enterprise",
+    "description": "Small loans for micro-enterprises and livelihood activities for individuals from Scheduled Caste communities with annual family income below the poverty line.",
+    "overview": "Micro Credit Finance scheme provides small loans to SC beneficiaries for undertaking income-generating micro-enterprise activities. This scheme is designed for those who need small amounts of capital to start petty businesses, street vending, or other small-scale economic activities.",
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 60,
+      "maxFamilyIncome": 150000,
+      "categories": ["SC"],
+      "states": "all",
+      "purposes": ["business", "self-employment", "petty-trade", "street-vending"],
+      "maxProjectCost": 200000,
+      "educationRequired": false
+    },
+    "financials": {
+      "maxLoanAmount": 200000,
+      "interestRate": 5.0,
+      "maxTenureMonths": 36,
+      "moratoriumMonths": 3,
+      "financingPercentage": 95,
+      "marginMoney": 5,
+      "subsidyAvailable": true,
+      "subsidyDetails": "Interest subsidy for timely repayment"
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Caste Certificate (SC)",
+      "Income Certificate",
+      "Address Proof",
+      "Passport Size Photographs (2)",
+      "Bank Account Details",
+      "Brief Activity Description"
+    ],
+    "benefits": [
+      "Very low interest rate of 5% per annum",
+      "Up to 95% project financing",
+      "Quick disbursement process",
+      "Minimal documentation required",
+      "No collateral required",
+      "Group lending option available"
+    ],
+    "applicationProcess": [
+      "Approach nearest Channel Partner or Self-Help Group",
+      "Submit basic application with identity and income proof",
+      "Brief activity description reviewed by Channel Partner",
+      "Loan sanctioned within 15-30 days",
+      "Amount disbursed directly to beneficiary account"
+    ],
+    "tags": ["SC", "Micro Enterprise", "Quick Loan", "No Collateral"]
+  },
+  {
+    "id": "scheme-003",
+    "name": "Mahila Samridhi Yojana",
+    "organization": "NSFDC",
+    "category": "Women Empowerment",
+    "description": "Dedicated scheme for women entrepreneurs from Scheduled Caste communities to establish or expand micro-enterprises with concessional financing.",
+    "overview": "Mahila Samridhi Yojana is a special scheme exclusively for SC women to encourage entrepreneurship and self-reliance. The scheme offers highly concessional terms including reduced interest rates and higher subsidy components to empower women economically.",
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 55,
+      "maxFamilyIncome": 300000,
+      "categories": ["SC"],
+      "states": "all",
+      "purposes": ["business", "self-employment", "handicraft", "food-processing", "tailoring"],
+      "maxProjectCost": 200000,
+      "gender": "female",
+      "educationRequired": false
+    },
+    "financials": {
+      "maxLoanAmount": 200000,
+      "interestRate": 4.0,
+      "maxTenureMonths": 48,
+      "moratoriumMonths": 6,
+      "financingPercentage": 95,
+      "marginMoney": 5,
+      "subsidyAvailable": true,
+      "subsidyDetails": "Additional 2% interest subsidy for timely repayment"
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Caste Certificate (SC)",
+      "Income Certificate",
+      "Address Proof",
+      "Passport Size Photographs (2)",
+      "Bank Account Details",
+      "Brief Project Description"
+    ],
+    "benefits": [
+      "Lowest interest rate at 4% per annum",
+      "95% project financing",
+      "6-month moratorium on repayment",
+      "Additional interest rebate for timely repayment",
+      "No collateral required",
+      "Skill training support available",
+      "Handholding support through SHGs"
+    ],
+    "applicationProcess": [
+      "Contact nearest Women Self-Help Group or Channel Partner",
+      "Fill application form with required documents",
+      "Activity/project description reviewed",
+      "Loan sanctioned after verification",
+      "Disbursement through Channel Partner to bank account",
+      "Optional skill training provided before disbursement"
+    ],
+    "tags": ["SC", "Women", "Micro Enterprise", "Low Interest", "Subsidy"]
+  },
+  {
+    "id": "scheme-004",
+    "name": "Education Loan Scheme",
+    "organization": "NSFDC",
+    "category": "Education",
+    "description": "Educational loans for students from Scheduled Caste families to pursue professional and technical courses at recognized institutions in India and abroad.",
+    "overview": "The Education Loan Scheme enables SC students to pursue higher education including professional courses, technical education, and studies abroad. The scheme covers tuition fees, hostel charges, book expenses, and other course-related costs.",
+    "eligibility": {
+      "minAge": 17,
+      "maxAge": 35,
+      "maxFamilyIncome": 300000,
+      "categories": ["SC"],
+      "states": "all",
+      "purposes": ["education", "higher-education", "professional-course"],
+      "maxProjectCost": 2000000,
+      "educationRequired": true
+    },
+    "financials": {
+      "maxLoanAmount": 2000000,
+      "interestRate": 4.0,
+      "maxTenureMonths": 60,
+      "moratoriumMonths": 12,
+      "financingPercentage": 90,
+      "marginMoney": 10,
+      "subsidyAvailable": true,
+      "subsidyDetails": "Full interest subsidy during course period for family income below ₹2 Lakh"
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Caste Certificate (SC)",
+      "Income Certificate of Parent/Guardian",
+      "Admission Letter from Recognized Institution",
+      "Mark Sheets of Last Qualifying Exam",
+      "Fee Structure of the Course",
+      "Bank Account Details",
+      "Passport Size Photographs (2)",
+      "Passport and Visa (for abroad studies)"
+    ],
+    "benefits": [
+      "Low interest rate of 4% per annum",
+      "Covers tuition, hostel, books, and equipment",
+      "Moratorium until course completion + 12 months",
+      "Interest subsidy during study period for BPL families",
+      "Covers both India and abroad studies",
+      "No collateral for loans up to ₹7.5 Lakh"
+    ],
+    "applicationProcess": [
+      "Secure admission in a recognized institution",
+      "Apply through nearest Channel Partner with admission letter",
+      "Submit income proof and academic records",
+      "Loan sanctioned based on course and institution",
+      "Fee paid directly to institution",
+      "Repayment begins after moratorium period"
+    ],
+    "tags": ["SC", "Education", "Students", "Professional Courses"]
+  },
+  {
+    "id": "scheme-005",
+    "name": "Green Business Loan",
+    "organization": "NBCFDC",
+    "category": "Green Enterprise",
+    "description": "Special financing for eco-friendly and sustainable business ventures by entrepreneurs from backward classes including solar energy, organic farming, and waste management.",
+    "overview": "Green Business Loan promotes environmentally sustainable enterprises among backward class entrepreneurs. The scheme supports solar energy projects, organic farming, waste recycling, eco-tourism, and other green business initiatives with preferential financing terms.",
+    "eligibility": {
+      "minAge": 18,
+      "maxAge": 55,
+      "maxFamilyIncome": 300000,
+      "categories": ["SC", "OBC", "DNT"],
+      "states": "all",
+      "purposes": ["business", "green-energy", "organic-farming", "waste-management"],
+      "maxProjectCost": 1000000,
+      "educationRequired": false
+    },
+    "financials": {
+      "maxLoanAmount": 1000000,
+      "interestRate": 5.0,
+      "maxTenureMonths": 96,
+      "moratoriumMonths": 6,
+      "financingPercentage": 90,
+      "marginMoney": 10,
+      "subsidyAvailable": true,
+      "subsidyDetails": "Additional 25% capital subsidy for solar and renewable energy projects"
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Caste/Community Certificate",
+      "Income Certificate",
+      "Address Proof",
+      "Passport Size Photographs (2)",
+      "Bank Account Details",
+      "Green Business Project Report",
+      "Environmental Clearance (if applicable)",
+      "Quotations for Equipment/Machinery"
+    ],
+    "benefits": [
+      "Competitive interest rate of 5%",
+      "Capital subsidy for renewable energy projects",
+      "Extended tenure up to 8 years",
+      "Technical support for green project planning",
+      "Priority processing for solar and organic farming",
+      "Linkage with government green initiatives"
+    ],
+    "applicationProcess": [
+      "Prepare green business project report",
+      "Apply through Channel Partner with documents",
+      "Environmental feasibility assessed",
+      "Loan sanctioned after technical evaluation",
+      "Disbursement in phases linked to project milestones",
+      "Regular monitoring and technical guidance provided"
+    ],
+    "tags": ["OBC", "Green", "Sustainable", "Solar", "Organic Farming"]
+  }
+]

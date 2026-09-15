@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahayak AI — Scheme Matching</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark">S</div><div><strong>Sahayak AI</strong><span>Financial empowerment assistant</span></div></div>
+    <div class="status"><i></i> Decision engine online</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">SIH26092 • SMART AUTOMATION</div>
+        <h1>Find the right government support.<br><em>Without the confusion.</em></h1>
+        <p>One guided journey from a citizen's need to eligible schemes, estimated EMI and the nearest available channel partner.</p>
+        <div class="hero-pills"><span>✓ Explainable matching</span><span>✓ Multilingual-ready</span><span>✓ India-level scheme data</span></div>
+      </div>
+      <div class="hero-card"><div class="mini-label">THE PROBLEM WE SOLVE</div><div class="big-number">1 → 3 → 1</div><div class="mini-flow"><span>Need</span><b>→</b><span>Schemes</span><b>→</b><span>Action</span></div><p>Turn scattered scheme information into one practical recommendation.</p></div>
+    </section>
+
+    <section class="workspace">
+      <div class="panel input-panel">
+        <div class="panel-head"><div><span class="step">01</span><div><h2>Tell us what you need</h2><p>Use natural language or the fields below.</p></div></div><button id="demoBtn" class="ghost">Load demo</button></div>
+        <label class="label">Describe your requirement</label>
+        <textarea id="textInput" placeholder="Example: I want to start a small dairy business. My annual income is 3 lakh and I need a loan of 1 lakh."></textarea>
+        <div class="voice-row">
+          <select id="languageSelect" class="language-select">
+            <option value="en-IN">🇬🇧 English</option>
+            <option value="hi-IN">🇮🇳 हिंदी</option>
+            <option value="pa-IN">ਪੰਜਾਬੀ Punjabi</option>
+          </select>
+          <button id="voiceBtn" class="voice-btn" type="button">🎤 Speak</button>
+          <span id="voiceStatus">Choose a language and speak</span>
+        </div>
+
+        <div class="quick-row"><button data-text="I want to start a small business. My annual income is 3 lakh and I need a loan of 1 lakh.">Business demo</button><button data-text="I need an education loan. My annual income is 3 lakh and I need 4 lakh for higher education.">Education demo</button></div>
+        <div class="divider"><span>Optional details</span></div>
+        <div class="grid">
+          <div><label>Project cost (₹)</label><input id="projectCost" type="number" value="120000"></div>
+          <div><label>Age</label><input id="age" type="number" value="25"></div>
+          <div><label>State</label><select id="state"><option>Punjab</option><option>Delhi</option><option>Haryana</option><option>Uttar Pradesh</option><option>Maharashtra</option><option>Other</option></select></div>
+          <div><label>Category</label><select id="category"><option value="SC">SC</option><option value="OBC">OBC</option><option value="ST">ST</option><option value="Women">Women</option></select></div>
+        </div>
+        <button id="findBtn" class="primary">Find my best options <span>→</span></button>
+        <div id="error" class="error"></div>
+      </div>
+
+      <div class="panel how-panel">
+        <div class="panel-head"><div><span class="step">02</span><div><h2>What happens next?</h2><p>Transparent by design.</p></div></div></div>
+        <div class="flow">
+          <div class="flow-item"><div class="flow-icon">⌕</div><div><b>Understand</b><span>Extract purpose, income, loan need and profile.</span></div></div>
+          <div class="line"></div>
+          <div class="flow-item"><div class="flow-icon">✓</div><div><b>Check eligibility</b><span>Apply rule-based constraints from the scheme dataset.</span></div></div>
+          <div class="line"></div>
+          <div class="flow-item"><div class="flow-icon">★</div><div><b>Rank options</b><span>Score fit and show the reasons behind the match.</span></div></div>
+          <div class="line"></div>
+          <div class="flow-item"><div class="flow-icon">₹</div><div><b>Plan & route</b><span>Estimate EMI and surface nearby partners.</span></div></div>
+        </div>
+        <div class="trust"><b>Why this is safer than a generic chatbot</b><span>The decision engine uses structured scheme rules; the assistant explains the result instead of inventing eligibility.</span></div>
+      </div>
+    </section>
+
+    <section id="results" class="results hidden">
+      <div class="results-head"><div><div class="eyebrow">03 • YOUR RECOMMENDATION</div><h2>Here’s the shortlist</h2><p id="summary"></p></div><div class="match-badge"><strong id="count">0</strong><span>eligible options</span></div></div>
+      <div class="dashboard-grid">
+        <div class="panel best-panel"><div class="card-kicker">TOP MATCH</div><div id="bestScheme"></div></div>
+        <div class="panel emi-panel"><div class="card-kicker">FINANCIAL SNAPSHOT</div><div id="emi"></div></div>
+      </div>
+      <div class="panel"><div class="card-title"><div><div class="card-kicker">RECOMMENDED SCHEMES</div><h3>Compare before you apply</h3></div></div><div id="schemeList" class="scheme-list"></div></div>
+      <div class="panel"><div class="card-title"><div><div class="card-kicker">ROUTE TO ACTION</div><h3>Nearest eligible channel partners</h3><p>Demo routing based on the partner dataset currently configured.</p></div></div><div id="partners" class="partner-list"></div></div>
+      <div class="disclaimer">⚠ <b>Important:</b> Recommendations are decision-support, not approval. Always verify the latest official guidelines and partner availability before applying.</div>
+    </section>
+  </main>
+  <footer><span>Sahayak AI • SIH26092 prototype</span><span>Explainable • Accessible • Action-oriented</span></footer>
+  <script src="./app.js"></script>
+</body>
+</html>

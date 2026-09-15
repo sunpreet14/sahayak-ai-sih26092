@@ -1,0 +1,6 @@
+partner_name,partner_type,state,district,city,pincode,latitude,longitude,loan_categories,active_status,fund_utilization_status
+Punjab SC Development Corporation,SCA,Punjab,Jalandhar,Jalandhar,144001,31.3260,75.5762,"Micro Finance;Term Loan;Education Loan",Active,Eligible
+Punjab SC Development Corporation,SCA,Punjab,Ludhiana,Ludhiana,141001,30.9010,75.8573,"Micro Finance;Term Loan;Education Loan",Active,Eligible
+Punjab SC Development Corporation,SCA,Punjab,Amritsar,Amritsar,143001,31.6340,74.8723,"Micro Finance;Term Loan;Education Loan",Active,Eligible
+Authorized Channel Partner - Delhi,Channelizing Agency,Delhi,New Delhi,New Delhi,110001,28.6139,77.2090,"Micro Finance;Term Loan;Education Loan",Active,Eligible
+Authorized Channel Partner - Chandigarh,Channelizing Agency,Chandigarh,Chandigarh,Chandigarh,160017,30.7333,76.7794,"Micro Finance;Term Loan;Education Loan",Active,Eligible
